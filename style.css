@@ -27,9 +27,13 @@ main {
     text-transform: lowercase;
 }
 
-::placeholder { color: #1616a5; }
+::placeholder { 
+   color: white; 
+   text-transform: none;
+}
  .texto:focus {
     outline: none
+    
  }
 
 .mensaje {
@@ -41,6 +45,7 @@ main {
     margin-top: 2px;
     margin-left: 98px;
     color: white;
+    text-transform: lowercase;
  }
 
 .mensaje:focus {
