@@ -39,4 +39,13 @@ function desencriptar(fraseDesencriptada) {
     return fraseDesencriptada
 }
 
+function botonCopiar() {
+    let  fraseCopiada = copiar()
+}
+   
+
+function copiar() {
+    let textoCopiado = mensaje.value
+    alert("Frase copiada");
+}
 

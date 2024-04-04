@@ -90,7 +90,7 @@ main {
    transform: scale(1.1);
  }
 
-.copiar {  
+.btn-copiar {  
     text-align: center;
     background-color: #1616a5;
     border: 1px solid white;
@@ -104,7 +104,7 @@ main {
     transition: 0,5s;
  }
 
- .copiar:hover {
+ .btn-copiar:hover {
    transform: scale(1.1);
  }
 
@@ -120,5 +120,6 @@ main {
    text-align: center;
    color: black;
  }
+
 
 
