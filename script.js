@@ -40,12 +40,11 @@ function desencriptar(fraseDesencriptada) {
 }
 
 function botonCopiar() {
-    let  fraseCopiada = copiar()
+    copiar();
 }
-   
 
 function copiar() {
-    let textoCopiado = mensaje.value
-    alert("Frase copiada");
+    mensaje.select();
+    document.execCommand('copy');
+    alert("Frase copiada con exito");
 }
-
